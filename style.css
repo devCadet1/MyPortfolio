@@ -49,10 +49,17 @@ nav ul li a:hover{
 
 /* Main section */
 
+main hr{
+    border: 0;
+    background: rgb(140, 140, 220);
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
 .firstSection{
     display: flex;
     justify-content: space-around;
-    margin: 80px 0;
+    margin: 130px 0;
     align-items: center;
 }
 
@@ -73,7 +80,63 @@ nav ul li a:hover{
     color: blueviolet
 }
 
+.text-gray{
+    color: gray;
+}
+
 #element{
     color: blueviolet;
 }
 
+.vertical-title{
+    position: relative;
+    top: 40px;
+    left: -50px;
+    width: 150px;
+}
+
+.vertical-desc{
+    position: relative;
+    top: 48px;
+    left: -50px;
+    color: gray;
+    width: 150px;
+    font-size: 12px;
+}
+
+/* second section*/
+
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+
+}
+
+.secondSection h1{
+    font-size: 1.9rem;
+}
+
+.secondSection .box{
+    background: white;
+    width: 75vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical{
+    height: 90px;
+    width: 1px;
+    background-color: white;
+    margin: 0 140px;
+    
+}
+
+
+.image{
+    width: 40px;
+    position: relative;
+    top: -40px;
+    left: -20px;
+}
