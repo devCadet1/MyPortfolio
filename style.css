@@ -71,6 +71,26 @@ main hr{
     font-size: 3rem;
 }
 
+.buttons{
+    padding-top: 50px;
+}
+
+.leftSection .btn{
+    padding: 12px;
+    background-color: #1e2167;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.leftSection .btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
 .rightSection img{
      width: 80%;
      margin: 50px 0;
