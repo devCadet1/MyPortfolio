@@ -140,3 +140,36 @@ main hr{
     top: -40px;
     left: -20px;
 }
+
+/* footer section */
+
+footer{
+    background-color: #001d3d;
+    height: 233px;
+    color: #fff;
+}
+
+footer>div{
+    line-height: 44px;
+}
+
+.footer{
+    display: flex;
+    padding: 23px 120px;
+    justify-content: space-evenly;
+    
+}
+
+.footer li{
+    list-style: none;
+}
+
+.footer .footer-third i{
+    margin-right: 8px ;
+}
+
+.footer .footer-third a{
+    text-decoration: none;
+    color: #fff;
+}
+
